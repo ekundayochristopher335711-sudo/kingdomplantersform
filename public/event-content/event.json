@@ -1,8 +1,8 @@
 {
-  "churchName": "[CHURCH NAME]",
+  "churchName": "KINGDOM PLANTERS",
   "logoUrl": null,
-  "title": "[EVENT TITLE]",
-  "tagline": "[EVENT TAGLINE]",
+  "title": "kingdom Hangout",
+  "tagline": "FRESHER’S WEEKEND",
   "introduction": "A day for young people to grow in faith, make new friends, and enjoy time together.",
   "aboutHeading": "A day to connect and grow.",
   "aboutSummary": "{eventTitle} is a youth gathering at {venue}.",
@@ -54,6 +54,6 @@
   },
   "socialLinks": {
     "Instagram": null,
-    "Facebook": null
+    "Facebook": "https://www.facebook.com/share/19rW2VrEfy/?mibextid=wwXIfr"
   }
 }
