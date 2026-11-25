@@ -1,0 +1,14 @@
+EVENT WEBSITE: START HERE
+
+Edit this one file to update the website:
+  event.json
+
+Replace the words inside square brackets, such as [CHURCH NAME] and [EVENT TITLE]. You can also edit the other text, date, time, address, phone number, activities, and social links in this file.
+
+Important:
+- Keep the names before each colon, the quotation marks, and commas.
+- Keep text inside quotation marks. Example: "churchName": "Grace Church"
+- Save the file, then refresh the website to see the changes.
+- Put photos in the images folder. See images/README.txt for how to connect them.
+
+If the website shows an event information error, check that event.json is still valid JSON. Do not delete the curly braces or quotation marks.
