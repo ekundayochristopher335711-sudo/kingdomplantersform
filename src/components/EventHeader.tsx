@@ -4,7 +4,7 @@ import { useEventContent } from '../config/EventContentProvider'
 
 export const navigation = [
   ['home', 'Home'], ['about', 'About'], ['activities', 'Activities'],
-  ['gallery', 'Gallery'], ['location', 'Location'], ['register', 'Register'],
+  ['location', 'Location'], ['register', 'Register'],
 ] as const
 
 export function Brand({ href = '#home' }: { href?: string }) {
@@ -27,7 +27,7 @@ export default function EventHeader() {
   const [open, setOpen] = useState(false)
 
   useEffect(() => {
-    const sections = ['home', 'about', 'activities', 'gallery', 'register', 'location']
+    const sections = ['home', 'about', 'activities', 'register', 'location']
       .map(id => document.getElementById(id))
       .filter((section): section is HTMLElement => Boolean(section))
       .reverse()

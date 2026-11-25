@@ -2,7 +2,6 @@ import { CalendarDays, Clock3, Facebook, Instagram, MapPin, MessageCircle, Navig
 import { motion, useReducedMotion } from 'motion/react'
 import Activities from '../components/Activities'
 import Countdown from '../components/Countdown'
-import EventGallery from '../components/EventGallery'
 import EventHeader, { Brand, navigation } from '../components/EventHeader'
 import { EventMedia } from '../components/EventMedia'
 import RegistrationForm from '../components/RegistrationForm'
@@ -184,7 +183,6 @@ export default function HomePage() {
         <Countdown />
         <About />
         <Activities />
-        <EventGallery />
         <RegistrationForm
           eventTitle={config.title}
           dateLabel={display.dateLabel}
