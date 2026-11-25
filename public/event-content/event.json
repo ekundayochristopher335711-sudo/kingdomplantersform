@@ -1,59 +1,115 @@
 {
-  "churchName": "KINGDOM PLANTERS",
-  "logoUrl": null,
-  "title": "kingdom Hangout",
-  "tagline": "FRESHER’S WEEKEND",
-  "introduction": "A day for young people to grow in faith, make new friends, and enjoy time together.",
-  "aboutHeading": "A day to connect and grow.",
-  "aboutSummary": "{eventTitle} is a youth gathering at {venue}.",
-  "description": "Come together with other young people for fellowship, honest conversations, and a chance to deepen your faith.",
-  "expectations": "Bring a friend or come on your own. There’ll be team games, Bible challenges, food, and plenty of time to get to know each other.",
-  "activitiesHeading": "What’s happening",
-  "activitiesIntroduction": "A day of games, meaningful conversations, and time together.",
-  "activities": [
-    { "title": "Games and Fun", "description": "Team games and friendly challenges to get everyone involved.", "icon": "gamepad" },
-    { "title": "Discussion and Chats", "description": "Talk about life and faith in spaces where everyone can be heard.", "icon": "message" },
-    { "title": "New Connections", "description": "Meet young people from other fellowships and make new friends.", "icon": "people" },
-    { "title": "Bible Games", "description": "Put what you know to the test with team quizzes and challenges.", "icon": "book" },
-    { "title": "Food and Snacks", "description": "Take a break, grab a bite, and catch up with friends.", "icon": "food" },
-    { "title": "Talent Showcase", "description": "Cheer on young people sharing their gifts with the group.", "icon": "microphone" },
-    { "title": "Prizes and Winbies", "description": "Play, participate, and get a chance to take home a prize.", "icon": "trophy" },
-    { "title": "And Many More", "description": "Leave a little room in your day for surprises.", "icon": "sparkles" }
-  ],
-  "galleryHeading": "Event gallery",
-  "registrationIntroduction": "Be part of a vibrant church youth event for worship, friendship, practical insight, and a fresh sense of purpose.",
-  "locationHeading": "Find us in",
-  "mapPlaceholder": "Map preview placeholder",
-  "invitationHeading": "See you there?",
-  "invitationDescription": "Come on your own or bring a friend. We’d love to see you.",
-  "formHeading": "Your details",
-  "registrationButton": "Register to Attend",
-  "exploreButton": "Explore Event",
-  "startsAt": "2026-11-28T10:00:00+01:00",
-  "endsAt": "2026-11-29T00:00:00+01:00",
-  "timezone": "Africa/Lagos",
-  "venue": "The Kingdom Place",
-  "locality": "Iworoko-Ekiti",
-  "address": "Bata Hostel, Phase 2, Iworoko-Ekiti",
-  "enquiryPhone": "08066572480",
-  "enquiryPhoneInternational": "+2348066572480",
-  "mapEmbedUrl": null,
-  "siteUrl": null,
-  "socialImageUrl": null,
-  "photos": {
-    "hero": [
-      { "src": null, "alt": "", "label": "Photo placeholder" },
-      { "src": null, "alt": "", "label": "Photo placeholder" }
-    ],
-    "about": { "src": null, "alt": "", "label": "Photo placeholder" },
-    "gallery": [
-      { "src": null, "alt": "", "label": "Gathering photo placeholder" },
-      { "src": null, "alt": "", "label": "Activities photo placeholder" },
-      { "src": null, "alt": "", "label": "Fellowship photo placeholder" }
-    ]
-  },
-  "socialLinks": {
-    "Instagram": null,
-    "Facebook": "https://www.facebook.com/share/19rW2VrEfy/?mibextid=wwXIfr"
-  }
+    "churchName":  "KINGDOM PLANTERS",
+    "logoUrl":  "/event-content/images/logo.png",
+    "title":  "kingdom Hangout",
+    "tagline":  "FRESHER’S WEEKEND",
+    "introduction":  "A day for young people to grow in faith, make new friends, and enjoy time together.",
+    "aboutHeading":  "A day to connect and grow.",
+    "aboutSummary":  "{eventTitle} is a youth gathering at {venue}.",
+    "description":  "Come together with other young people for fellowship, honest conversations, and a chance to deepen your faith.",
+    "expectations":  "Bring a friend or come on your own. There’ll be team games, Bible challenges, food, and plenty of time to get to know each other.",
+    "activitiesHeading":  "What’s happening",
+    "activitiesIntroduction":  "A day of games, meaningful conversations, and time together.",
+    "activities":  [
+                       {
+                           "title":  "Games and Fun",
+                           "description":  "Team games and friendly challenges to get everyone involved.",
+                           "icon":  "gamepad"
+                       },
+                       {
+                           "title":  "Discussion and Chats",
+                           "description":  "Talk about life and faith in spaces where everyone can be heard.",
+                           "icon":  "message"
+                       },
+                       {
+                           "title":  "New Connections",
+                           "description":  "Meet young people from other fellowships and make new friends.",
+                           "icon":  "people"
+                       },
+                       {
+                           "title":  "Bible Games",
+                           "description":  "Put what you know to the test with team quizzes and challenges.",
+                           "icon":  "book"
+                       },
+                       {
+                           "title":  "Food and Snacks",
+                           "description":  "Take a break, grab a bite, and catch up with friends.",
+                           "icon":  "food"
+                       },
+                       {
+                           "title":  "Talent Showcase",
+                           "description":  "Cheer on young people sharing their gifts with the group.",
+                           "icon":  "microphone"
+                       },
+                       {
+                           "title":  "Prizes and Winbies",
+                           "description":  "Play, participate, and get a chance to take home a prize.",
+                           "icon":  "trophy"
+                       },
+                       {
+                           "title":  "And Many More",
+                           "description":  "Leave a little room in your day for surprises.",
+                           "icon":  "sparkles"
+                       }
+                   ],
+    "galleryHeading":  "Event gallery",
+    "registrationIntroduction":  "Be part of a vibrant church youth event for worship, friendship, practical insight, and a fresh sense of purpose.",
+    "locationHeading":  "Find us in",
+    "mapPlaceholder":  "Map preview placeholder",
+    "invitationHeading":  "See you there?",
+    "invitationDescription":  "Come on your own or bring a friend. We’d love to see you.",
+    "formHeading":  "Your details",
+    "registrationButton":  "Register to Attend",
+    "exploreButton":  "Explore Event",
+    "startsAt":  "2026-11-28T10:00:00+01:00",
+    "endsAt":  "2026-11-29T00:00:00+01:00",
+    "timezone":  "Africa/Lagos",
+    "venue":  "The Kingdom Place",
+    "locality":  "Iworoko-Ekiti",
+    "address":  "Bata Hostel, Phase 2, Iworoko-Ekiti",
+    "enquiryPhone":  "08066572480",
+    "enquiryPhoneInternational":  "+2348066572480",
+    "mapEmbedUrl":  null,
+    "siteUrl":  null,
+    "socialImageUrl":  null,
+    "photos":  {
+                   "hero":  [
+                                {
+                                    "src":  "/event-content/images/hero-main.png",
+                                    "alt":  "",
+                                    "label":  "Photo placeholder"
+                                },
+                                {
+                                    "src":  "/event-content/images/hero-secondary.png",
+                                    "alt":  "",
+                                    "label":  "Photo placeholder"
+                                }
+                            ],
+                   "about":  {
+                                 "src":  "/event-content/images/about.jpg",
+                                 "alt":  "",
+                                 "label":  "Photo placeholder"
+                             },
+                   "gallery":  [
+                                   {
+                                       "src":  null,
+                                       "alt":  "",
+                                       "label":  "Gathering photo placeholder"
+                                   },
+                                   {
+                                       "src":  null,
+                                       "alt":  "",
+                                       "label":  "Activities photo placeholder"
+                                   },
+                                   {
+                                       "src":  null,
+                                       "alt":  "",
+                                       "label":  "Fellowship photo placeholder"
+                                   }
+                               ]
+               },
+    "socialLinks":  {
+                        "Instagram":  null,
+                        "Facebook":  "https://www.facebook.com/share/19rW2VrEfy/?mibextid=wwXIfr"
+                    }
 }
