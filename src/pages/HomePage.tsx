@@ -1,4 +1,4 @@
-import { CalendarDays, Clock3, Facebook, Instagram, MapPin, MessageCircle, Navigation, Phone } from 'lucide-react'
+import { CalendarDays, Clock3, Facebook, MapPin, MessageCircle, Navigation, Phone, Youtube } from 'lucide-react'
 import { motion, useReducedMotion } from 'motion/react'
 import Activities from '../components/Activities'
 import Countdown from '../components/Countdown'
@@ -134,7 +134,27 @@ function FinalInvitation() {
   )
 }
 
-const socials = { Instagram, Facebook }
+const socials = { YouTube: Youtube, Facebook }
+
+function FloatingWhatsApp() {
+  const { config, display } = useEventContent()
+  return (
+    <a
+      className="whatsapp-float"
+      href={display.whatsappUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label={`Chat with ${config.churchName} on WhatsApp`}
+      title="Chat on WhatsApp"
+    >
+      <span className="whatsapp-float__icon" aria-hidden="true">
+        <MessageCircle />
+        <Phone />
+      </span>
+      <span className="whatsapp-float__label" aria-hidden="true">Chat on WhatsApp</span>
+    </a>
+  )
+}
 
 function Footer() {
   const { config, display } = useEventContent()
@@ -193,6 +213,7 @@ export default function HomePage() {
         <FinalInvitation />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </>
   )
 }

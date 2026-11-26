@@ -67,8 +67,8 @@
     "venue":  "The Kingdom Place",
     "locality":  "Iworoko-Ekiti",
     "address":  "Bata Hostel, Phase 2, Iworoko-Ekiti",
-    "enquiryPhone":  "08066572480",
-    "enquiryPhoneInternational":  "+2348066572480",
+    "enquiryPhone":  "09038183552",
+    "enquiryPhoneInternational":  "+2349038183552",
     "mapEmbedUrl":  "https://www.google.com/maps?q=7.721472,5.251889&output=embed",
     "siteUrl":  null,
     "socialImageUrl":  null,
@@ -109,7 +109,7 @@
                                ]
                },
     "socialLinks":  {
-                        "Instagram":  null,
+                        "YouTube":  "https://youtube.com/@thekingdomplanters?si=wixyqw_gjpOc_IiI",
                         "Facebook":  "https://www.facebook.com/share/19rW2VrEfy/?mibextid=wwXIfr"
                     }
 }
