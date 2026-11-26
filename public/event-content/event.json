@@ -5,9 +5,9 @@
     "tagline":  "FRESHER’S WEEKEND",
     "introduction":  "A day for young people to grow in faith, make new friends, and enjoy time together.",
     "aboutHeading":  "A day to connect and grow.",
-    "aboutSummary":  "{eventTitle} is a youth gathering at {venue}.",
-    "description":  "Come together with other young people for fellowship, honest conversations, and a chance to deepen your faith.",
-    "expectations":  "Bring a friend or come on your own. There’ll be team games, Bible challenges, food, and plenty of time to get to know each other.",
+    "aboutSummary":  "kingdom Hangout is a youth gathering at The Kingdom Place.",
+    "description":  "Come together with other young people for fellowship, fun, games, honest conversations, and a chance to enjoy the Joy of fellowship.",
+    "expectations":  "Bring a friend or come on your own. There’ll be team games, Bible challenges, food, snacks and plenty of time to get to know each other and network.",
     "activitiesHeading":  "What’s happening",
     "activitiesIntroduction":  "A day of games, meaningful conversations, and time together.",
     "activities":  [
@@ -69,7 +69,7 @@
     "address":  "Bata Hostel, Phase 2, Iworoko-Ekiti",
     "enquiryPhone":  "08066572480",
     "enquiryPhoneInternational":  "+2348066572480",
-    "mapEmbedUrl":  null,
+    "mapEmbedUrl":  "https://www.google.com/maps?q=7.721472,5.251889&output=embed",
     "siteUrl":  null,
     "socialImageUrl":  null,
     "photos":  {

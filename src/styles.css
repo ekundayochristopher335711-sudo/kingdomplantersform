@@ -262,11 +262,7 @@ button:not(:disabled) { cursor: pointer; }
 .countdown__unit > span:first-child { font-size: clamp(1.65rem, 4.65vw, 4.2rem); line-height: .98; font-weight: 850; font-variant-numeric: tabular-nums; letter-spacing: -.065em; }
 .countdown__layout > p { font-size: clamp(1rem, 1.75vw, 1.3rem); }
 
-.about__layout { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.12fr); align-items: center; gap: clamp(2.5rem, 7vw, 7.25rem); }
-.about__visual { position: relative; width: 100%; max-width: 36rem; }
-.about__photo { width: 100%; aspect-ratio: 1.07; border-radius: 1rem; border: 3px solid #9bdeef; }
-.about__star { width: 13%; position: absolute; left: -3%; top: -8%; color: var(--red); }
-.about__square { width: 15%; position: absolute; right: -4%; bottom: -3%; aspect-ratio: 1; border: 3px solid var(--red); border-radius: .75rem; }
+.about__layout { max-width: 72rem; }
 .about__description { margin-top: .92rem; max-width: 56ch; font-size: clamp(1rem, 1.67vw, 1.31rem); line-height: 1.48; }
 .about__description strong { color: var(--blue-dark); }
 
@@ -376,9 +372,7 @@ body:has(.gallery-dialog[open]) { overflow: hidden; }
   .countdown__layout { grid-template-columns: minmax(0, 1fr); }
   .countdown__digits { max-width: 31rem; }
   .countdown__unit { font-size: .86rem; }
-  .about__layout, .location__layout { grid-template-columns: minmax(0, 1fr); }
-  .about__visual { max-width: 28rem; }
-  .about__layout > div:last-child { grid-row: 1; }
+  .location__layout { grid-template-columns: minmax(0, 1fr); }
   .activities__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .gallery__tile { aspect-ratio: 1.14; }

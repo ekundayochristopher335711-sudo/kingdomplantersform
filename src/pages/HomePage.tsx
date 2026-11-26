@@ -66,11 +66,6 @@ function About() {
   return (
     <section id="about" className="section about" aria-labelledby="about-heading">
       <div className="container about__layout">
-        <div className="about__visual">
-          <div className="media-frame about__photo"><EventMedia photo={config.photos.about} /></div>
-          <span className="about__star four-point" aria-hidden="true" />
-          <span className="about__square" aria-hidden="true" />
-        </div>
         <motion.div
           initial={reduced ? false : { opacity: 0.83, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
